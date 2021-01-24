@@ -27,7 +27,8 @@ let winnerResults = function(totalScore,currentScore) {
     rollDice.classList.add('hidden');
     holdRolling.classList.add('hidden');
     rollingDice.classList.add('hidden');
-    newGame.style.backgroundColor = 'blue';
+    newGame.style.backgroundColor = 'black';
+    newGame.style.color = 'white';
 }
 
 let initialize = function() {
